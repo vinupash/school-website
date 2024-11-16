@@ -1,0 +1,21 @@
+.button-primary {
+  grid-row-gap: 0.25rem;
+  background-color: var(--color--button);
+  color: var(--color--backgroung);
+  font-size: var(--text-size--medium);
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 30px;
+  //   flex-direction: column;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+
+  &:hover {
+    background-color: var(--color--primary);
+  }
+}
